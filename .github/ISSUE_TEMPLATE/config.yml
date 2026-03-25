@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Access Request
+    url: https://github.com/templarsco/lightweight/discussions/categories/access-requests
+    about: Request an invite code to use the API
+  - name: Documentation
+    url: https://docs.lightweight.one
+    about: Check the docs before opening an issue
+  - name: General Discussion
+    url: https://github.com/templarsco/lightweight/discussions
+    about: Ask questions or share ideas in Discussions

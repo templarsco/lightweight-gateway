@@ -1,0 +1,30 @@
+name: Bug Report
+description: Report an API bug or unexpected behavior
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: textarea
+    attributes:
+      label: Description
+      description: What happened? What did you expect?
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Model
+      description: Which model were you using?
+      placeholder: "e.g., claude-opus-4.6, gpt-5.4"
+  - type: input
+    attributes:
+      label: Endpoint
+      description: Which endpoint?
+      placeholder: "e.g., /v1/chat/completions, /v1/messages"
+  - type: textarea
+    attributes:
+      label: Steps to Reproduce
+      description: How can we reproduce this?
+  - type: textarea
+    attributes:
+      label: Error Response
+      description: Paste the error response or relevant logs
+      render: json
