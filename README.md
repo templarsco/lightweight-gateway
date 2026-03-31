@@ -1,6 +1,6 @@
 <div align="center">
 
-# Lightweight AI API Gateway
+# Lightweight API Gateway
 
 **One API key. 25+ AI models. Zero complexity.**
 
